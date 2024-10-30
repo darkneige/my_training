@@ -9,3 +9,4 @@ print(2*2+2==2*(2+2))
 # 4th program
 "123.456"
 print(int(float('123.456')*10%10))
+print (45-2)

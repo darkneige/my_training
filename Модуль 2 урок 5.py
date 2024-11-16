@@ -8,7 +8,7 @@ def get_matrix(n, m, value):
 
 n = int(input('Количество строк матрицы :'))
 m = int(input('Количество столбцов матрицы :'))
-value = input(f'Значение : ')
+value = input('Значение : ')
 matrix = get_matrix(n, m, value)
 print("Матрица воплоти:")
 for i in matrix:

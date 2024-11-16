@@ -8,7 +8,7 @@ for i in numbers:
     for j in range(2, i):
         if i % j == 0:
             is_prime = False
-            break               #break для оптимизации кода
+            break
     if is_prime == True:
         primes.append(i)
     else:

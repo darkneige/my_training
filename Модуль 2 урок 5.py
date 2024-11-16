@@ -10,7 +10,7 @@ n = int(input('Количество строк матрицы :'))
 m = int(input('Количество столбцов матрицы :'))
 value = input(f'Значение : ')
 print('-------' * m)
-matrix = get_matrix(n, m, value)    # Выведите на экран(консоль) результат работы функции get_matix.
+matrix = get_matrix(n, m, value)
 
 print("Матрица воплоти:")
 for i in matrix:

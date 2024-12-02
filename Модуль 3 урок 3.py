@@ -10,3 +10,4 @@ print_params(1, 2)
 values_list_2 = [False, {'1': 2, '2': 3}]
 values_dict = {'a': 12, 'b': "Слово", 'c': False}
 print_params(*values_list_2, 42)
+print_params(**values_dict)
